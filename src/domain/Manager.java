@@ -1,4 +1,7 @@
 package domain;
+/**
+ * Керує масивом об'єктів типу Employee.
+*/
 public class Manager extends Employee {
 
     public Manager(Employee[] employees, String name, String jobTitle, int level, String dept) {
